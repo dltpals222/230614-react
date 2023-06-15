@@ -1,4 +1,4 @@
-const React = require('react')
+import React from'react';
 
 const list = React.createElement(
   'ul',
@@ -10,5 +10,4 @@ const list = React.createElement(
   ]
 )
 
-document.body.appendChild(list)
 console.log(list)
